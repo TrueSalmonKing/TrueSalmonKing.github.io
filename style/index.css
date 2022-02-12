@@ -1,0 +1,105 @@
+@font-face {
+	font-family : ttf;
+	src: url(miscfb__.ttf);
+	font-weight : bold;
+
+}
+
+html {
+	display : block;
+	background-color: #262626;
+	font-family : ttf;
+	font-size : 20px;
+	color : #ffb5ab;
+}
+
+body {
+	display : block;
+	margin : 8px,
+}
+
+ul {
+	padding-left : 0px;
+}
+
+li {
+
+	list-style-type : none;
+	line-height : 3ch;
+	margin-top : 6px;
+
+}
+
+a {
+	text-decoration: inherit;
+}
+
+a:visited {
+	color: #ffb5ab;
+}
+
+a:-webkit-any-link {
+	cursor : pointer;
+}
+
+#center {
+	text-align : center;
+}
+
+.r_ref:hover{
+	color: #ea897c;
+}
+
+.task_bar {
+	display : block;
+	width : 50%;
+	margin : 0 auto;
+	overflow : hidden;
+	line-height : 3ch;
+}
+
+
+.section {
+	font-size : 1.0em;
+	float : left;
+	padding-right : 3ch;
+	padding-bottom : 5px;
+}
+
+.c_title {
+	padding-bottom : 10px;
+	padding-top : 30px;
+	font-size : 1.5em;
+}
+
+.content {
+	width : 50%;
+	font-size : 1.0em;
+	display : block;
+	margin : 0 auto;
+}
+
+.r_content {
+	white-space: pre-line;
+}
+
+.post_date {
+	padding-right : 2ch;
+}
+
+@media only screen and (max-width: 600px) {
+
+	.content, .task_bar {
+		width : 90%
+	}
+
+}
+
+#logo {
+	width : 10%
+}
+
+#logo > img {
+	padding-bottom : 10px;
+	vertical-align : center;
+}
