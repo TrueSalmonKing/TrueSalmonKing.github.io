@@ -30,7 +30,7 @@ li {
 
 }
 
-a  {
+a, a:active  {
 	text-decoration: inherit;
 	color: #ffb5ab;
 }
