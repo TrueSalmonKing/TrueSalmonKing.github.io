@@ -31,7 +31,7 @@ li {
 }
 
 a, a:active  {
-	text-decoration: inherit;
+	text-decoration: none;
 	color: #ffb5ab;
 }
 
