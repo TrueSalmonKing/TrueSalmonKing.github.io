@@ -30,11 +30,8 @@ li {
 
 }
 
-a {
-	text-decoration: inherit;
-}
-
 a, a:visited, a:active,  {
+	text-decoration: inherit;
 	color: #ffb5ab;
 }
 
