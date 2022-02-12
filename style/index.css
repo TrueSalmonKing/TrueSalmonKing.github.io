@@ -35,12 +35,12 @@ a, a:active  {
 	color: #ffb5ab;
 }
 
-a:-webkit-any-link {
-	cursor : pointer;
+a:hover {
+	color: #ea897c;
 }
 
-.r_ref:hover{
-	color: #ea897c;
+a:-webkit-any-link {
+	cursor : pointer;
 }
 
 #center {
