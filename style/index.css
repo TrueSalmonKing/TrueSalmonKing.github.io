@@ -83,10 +83,33 @@ a:-webkit-any-link {
 	font-size : 1.0em;
 	display : block;
 	margin : 0 auto;
+	margin-top : 20px;
 }
 
 .r_content {
-	white-space: pre-line;
+	margin : 0 auto;
+	white-space : pre-line;
+}
+
+.c_img {
+	width : 150px;
+	position : relative;
+	float : left;
+	display : block;
+	padding-right : 2em;
+	padding-bottom : 2em;
+	padding-top : 2em;
+}
+
+.c_img img {
+	height : 150px;
+}
+
+.cr_title {
+	white-space : pre-line;
+	position : absolute;
+	top : 200px;
+	left : 10px;
 }
 
 .post_date {
@@ -97,6 +120,21 @@ a:-webkit-any-link {
 
 	.content, .task_bar {
 		width : 90%
+	}
+
+	.c_content img {
+		height : 100px;
+	}
+	
+	.c_img {
+		padding-bottom : 1.5em;
+		padding-top : 1em;
+	}
+	
+	.cr_title {
+		top : 80%;
+		left : 10%;
+		font-size : 0.5em;
 	}
 
 }
